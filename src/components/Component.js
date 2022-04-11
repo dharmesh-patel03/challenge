@@ -53,13 +53,15 @@ const Component = (props) => {
                     <div className="col-md-6" style={{ position: 'relative' }}>
                         <HoverVideoPlayer className="video"
                             onHoverStart={() => {
-                               return true
+                                return true
                             }}
                             loop={true}
                             videoSrc={videos[props.allData.id - 1]}
                             pausedOverlay={<PausedOverlay />}
+
+                            // hoverOverlay={}
                         />
-                        {console.log(window.screen.width)}
+
                     </div>
                     <div className="col-md-6">
                         {

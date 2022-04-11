@@ -16,6 +16,15 @@
 }
 
 
+.caption {
+    z-index: 1;
+    font-family: sans-serif;
+    /* Position the text in the bottom-left corner of the overlay */
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    padding: 1em;
+}
 
 @media only screen and (min-width: 1000px) {
     .video:hover {
@@ -28,5 +37,15 @@
 
     .container-slider {
         height: 100vh !important;
+    }
+
+    .caption {
+        z-index: 1;
+        font-family: sans-serif;
+        /* Position the text in the bottom-left corner of the overlay */
+        position: absolute;
+        bottom: 110px;
+        left: 0;
+        padding: 1em;
     }
 }
