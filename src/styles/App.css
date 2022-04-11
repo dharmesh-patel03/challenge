@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    transition: all;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .video:hover {
+        transform: scale(1.5);
+        position: absolute !important;
+        top: 10%;
+        left: 50%;
+        z-index: 1;
+    }
+
+    .container-slider {
+        height: 100vh !important;
+    }
+}
